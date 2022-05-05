@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Billy Cen
+
+"""
+
+# pre: requests 3 user inputs: length, width, and unit measurement 
+# post: calculates the area of a triangle of the user's dimensions.
+
 # version as a call function accepting args
 def area_of_triangle2(base, height, unit):
     x = base
@@ -12,3 +21,5 @@ def area_of_triangle2(base, height, unit):
     else:    
         area = 0.5 * x * y
         print("Area: ",area, measured_in)
+        
+        
